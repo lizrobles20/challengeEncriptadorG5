@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Challenge Encriptador - ONE</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img class="logo-alura" src="assets/img/logo-alura.png" alt="Logo de Alura">
+                <div class="titulo-principal">
+                    <h1>Challenge Encriptador</h1>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="ingresar-texto">
+                <textarea class="txtarea-ingresar" id="txtarea-ingresar" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="aviso-letras">⚠️ Solo letras minúsculas y sin acentos.</p>
+                <div class="botones">
+                    <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+                    <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section class="resultado">
+                <article class="container-resultado">
+                    <div class="before-resultado" id="before-resultado">
+                        <img src="assets/img/munheco.png" alt="Imagen de una persona con una lupa">
+                        <h2 class="titulo-resultado">Ningún mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    <div class="texto-resultado" id="texto-resultado">
+                        <textarea class="txtarea-resultado" id="txtarea-resultado" cols="30" rows="10" disabled></textarea>
+                        <button class="btn-copiar" id="btn-copiar">Copiar</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Hecho por Lizbeth Robles (2023)<br>#challengeonecodificador5</p>
+                <div class="iconos">
+                    <a href="https://www.linkedin.com/in/lizrobles20/" target="_blank"><i class="uil uil-linkedin"></i></a>
+                    <a href="https://github.com/lizrobles20" target="_blank"><i class="uil uil-github"></i></a>
+                </div>
+        </footer>
+    </body>
+    <script src="assets/js/main.js"></script>
+</html>
